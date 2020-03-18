@@ -18,7 +18,8 @@ class _ApplayLoneState extends State<ApplayLone> {
               iconSize: 30.0,
               color: Colors.black,
               onPressed:(){
-                Navigator.push(context, MaterialPageRoute(builder: (context)=>deshboard() =));
+
+                Navigator.push(context, MaterialPageRoute(builder: (context)=>deshboard()));
           },
           ),
           title: Text(
